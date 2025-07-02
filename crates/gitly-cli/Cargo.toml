@@ -1,0 +1,12 @@
+[package]
+name = "gitly-cli"
+authors.workspace = true
+edition.workspace = true
+version.workspace = true
+description.workspace = true
+
+[[bin]]
+name = "gitly-cli"
+path = "src/main.rs"
+
+[dependencies]
